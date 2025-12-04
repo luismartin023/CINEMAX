@@ -51,10 +51,12 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(240, 66);
+            dataGridView1.Location = new Point(274, 88);
+            dataGridView1.Margin = new Padding(3, 4, 3, 4);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
-            dataGridView1.Size = new Size(478, 261);
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(546, 348);
             dataGridView1.TabIndex = 0;
             // 
             // lbl_nombre
@@ -63,24 +65,26 @@
             lbl_nombre.BackColor = Color.Transparent;
             lbl_nombre.Font = new Font("Segoe MDL2 Assets", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbl_nombre.ForeColor = SystemColors.ControlLightLight;
-            lbl_nombre.Location = new Point(66, 441);
+            lbl_nombre.Location = new Point(75, 588);
             lbl_nombre.Name = "lbl_nombre";
-            lbl_nombre.Size = new Size(58, 16);
+            lbl_nombre.Size = new Size(69, 20);
             lbl_nombre.TabIndex = 1;
             lbl_nombre.Text = "Nombre";
             // 
             // txt_nombre
             // 
-            txt_nombre.Location = new Point(46, 463);
+            txt_nombre.Location = new Point(53, 617);
+            txt_nombre.Margin = new Padding(3, 4, 3, 4);
             txt_nombre.Name = "txt_nombre";
-            txt_nombre.Size = new Size(100, 23);
+            txt_nombre.Size = new Size(114, 27);
             txt_nombre.TabIndex = 2;
             // 
             // txt_email
             // 
-            txt_email.Location = new Point(228, 463);
+            txt_email.Location = new Point(261, 617);
+            txt_email.Margin = new Padding(3, 4, 3, 4);
             txt_email.Name = "txt_email";
-            txt_email.Size = new Size(100, 23);
+            txt_email.Size = new Size(114, 27);
             txt_email.TabIndex = 4;
             // 
             // label2
@@ -89,17 +93,18 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe MDL2 Assets", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = SystemColors.ControlLightLight;
-            label2.Location = new Point(252, 441);
+            label2.Location = new Point(288, 588);
             label2.Name = "label2";
-            label2.Size = new Size(49, 16);
+            label2.Size = new Size(57, 20);
             label2.TabIndex = 3;
             label2.Text = "E-mail";
             // 
             // txt_telefono
             // 
-            txt_telefono.Location = new Point(410, 463);
+            txt_telefono.Location = new Point(469, 617);
+            txt_telefono.Margin = new Padding(3, 4, 3, 4);
             txt_telefono.Name = "txt_telefono";
-            txt_telefono.Size = new Size(100, 23);
+            txt_telefono.Size = new Size(114, 27);
             txt_telefono.TabIndex = 6;
             // 
             // lbl_telefono
@@ -108,9 +113,9 @@
             lbl_telefono.BackColor = Color.Transparent;
             lbl_telefono.Font = new Font("Segoe MDL2 Assets", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbl_telefono.ForeColor = SystemColors.ControlLightLight;
-            lbl_telefono.Location = new Point(423, 441);
+            lbl_telefono.Location = new Point(483, 588);
             lbl_telefono.Name = "lbl_telefono";
-            lbl_telefono.Size = new Size(63, 16);
+            lbl_telefono.Size = new Size(75, 20);
             lbl_telefono.TabIndex = 5;
             lbl_telefono.Text = "Teléfono";
             // 
@@ -120,17 +125,18 @@
             lbl_metodo.BackColor = Color.Transparent;
             lbl_metodo.Font = new Font("Segoe MDL2 Assets", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbl_metodo.ForeColor = SystemColors.ControlLightLight;
-            lbl_metodo.Location = new Point(583, 441);
+            lbl_metodo.Location = new Point(666, 588);
             lbl_metodo.Name = "lbl_metodo";
-            lbl_metodo.Size = new Size(113, 16);
+            lbl_metodo.Size = new Size(133, 20);
             lbl_metodo.TabIndex = 7;
             lbl_metodo.Text = "Método de pago";
             // 
             // txt_cedula
             // 
-            txt_cedula.Location = new Point(754, 463);
+            txt_cedula.Location = new Point(862, 617);
+            txt_cedula.Margin = new Padding(3, 4, 3, 4);
             txt_cedula.Name = "txt_cedula";
-            txt_cedula.Size = new Size(100, 23);
+            txt_cedula.Size = new Size(114, 27);
             txt_cedula.TabIndex = 10;
             // 
             // lbl_cedula
@@ -139,9 +145,9 @@
             lbl_cedula.BackColor = Color.Transparent;
             lbl_cedula.Font = new Font("Segoe MDL2 Assets", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbl_cedula.ForeColor = SystemColors.ControlLightLight;
-            lbl_cedula.Location = new Point(780, 441);
+            lbl_cedula.Location = new Point(891, 588);
             lbl_cedula.Name = "lbl_cedula";
-            lbl_cedula.Size = new Size(52, 16);
+            lbl_cedula.Size = new Size(61, 20);
             lbl_cedula.TabIndex = 9;
             lbl_cedula.Text = "Cédula";
             // 
@@ -154,9 +160,10 @@
             Btn_guardar.FlatStyle = FlatStyle.Flat;
             Btn_guardar.Font = new Font("Segoe MDL2 Assets", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Btn_guardar.ForeColor = SystemColors.ControlLightLight;
-            Btn_guardar.Location = new Point(264, 345);
+            Btn_guardar.Location = new Point(302, 460);
+            Btn_guardar.Margin = new Padding(3, 4, 3, 4);
             Btn_guardar.Name = "Btn_guardar";
-            Btn_guardar.Size = new Size(75, 33);
+            Btn_guardar.Size = new Size(86, 44);
             Btn_guardar.TabIndex = 11;
             Btn_guardar.Text = "Guardar";
             Btn_guardar.UseVisualStyleBackColor = false;
@@ -171,9 +178,10 @@
             Btn_editar.FlatStyle = FlatStyle.Flat;
             Btn_editar.Font = new Font("Segoe MDL2 Assets", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Btn_editar.ForeColor = SystemColors.ControlLightLight;
-            Btn_editar.Location = new Point(435, 345);
+            Btn_editar.Location = new Point(497, 460);
+            Btn_editar.Margin = new Padding(3, 4, 3, 4);
             Btn_editar.Name = "Btn_editar";
-            Btn_editar.Size = new Size(75, 33);
+            Btn_editar.Size = new Size(86, 44);
             Btn_editar.TabIndex = 12;
             Btn_editar.Text = "Editar";
             Btn_editar.UseVisualStyleBackColor = false;
@@ -188,9 +196,10 @@
             Btn_eliminar.FlatStyle = FlatStyle.Flat;
             Btn_eliminar.Font = new Font("Segoe MDL2 Assets", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Btn_eliminar.ForeColor = SystemColors.ControlLightLight;
-            Btn_eliminar.Location = new Point(599, 345);
+            Btn_eliminar.Location = new Point(685, 460);
+            Btn_eliminar.Margin = new Padding(3, 4, 3, 4);
             Btn_eliminar.Name = "Btn_eliminar";
-            Btn_eliminar.Size = new Size(75, 33);
+            Btn_eliminar.Size = new Size(86, 44);
             Btn_eliminar.TabIndex = 13;
             Btn_eliminar.Text = "Eliminar";
             Btn_eliminar.UseVisualStyleBackColor = false;
@@ -201,9 +210,10 @@
             cmb_metodo.DropDownStyle = ComboBoxStyle.DropDownList;
             cmb_metodo.FormattingEnabled = true;
             cmb_metodo.Items.AddRange(new object[] { "Paypal", "Tarjeta", "Transferencia" });
-            cmb_metodo.Location = new Point(575, 463);
+            cmb_metodo.Location = new Point(657, 617);
+            cmb_metodo.Margin = new Padding(3, 4, 3, 4);
             cmb_metodo.Name = "cmb_metodo";
-            cmb_metodo.Size = new Size(121, 23);
+            cmb_metodo.Size = new Size(138, 28);
             cmb_metodo.TabIndex = 14;
             // 
             // pictureBox5
@@ -211,9 +221,10 @@
             pictureBox5.BackColor = Color.Transparent;
             pictureBox5.Cursor = Cursors.Hand;
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(848, 1);
+            pictureBox5.Location = new Point(969, 1);
+            pictureBox5.Margin = new Padding(3, 4, 3, 4);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(41, 43);
+            pictureBox5.Size = new Size(47, 57);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.TabIndex = 26;
             pictureBox5.TabStop = false;
@@ -221,10 +232,10 @@
             // 
             // Pago
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(901, 565);
+            ClientSize = new Size(1148, 753);
             Controls.Add(pictureBox5);
             Controls.Add(cmb_metodo);
             Controls.Add(Btn_eliminar);
@@ -241,6 +252,7 @@
             Controls.Add(lbl_nombre);
             Controls.Add(dataGridView1);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Pago";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Pago";
