@@ -1,5 +1,5 @@
 ﻿using CapaNegocio;
-using CRUDPRACTICA;
+using CINEMAX;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

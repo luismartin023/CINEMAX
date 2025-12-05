@@ -1,7 +1,4 @@
-using CapaPresentacion;
-
-namespace CINEMAX
-
+namespace WinFormsApp1
 {
     internal static class Program
     {
@@ -14,7 +11,7 @@ namespace CINEMAX
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Cartelera());
+            Application.Run(new Form1());
         }
     }
 }

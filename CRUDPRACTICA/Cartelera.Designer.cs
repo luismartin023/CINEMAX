@@ -1,4 +1,4 @@
-﻿namespace CRUDPRACTICA
+﻿namespace CINEMAX
 {
     partial class Cartelera
     {

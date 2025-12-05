@@ -3,7 +3,7 @@ using System;
 using System.Drawing.Drawing2D;
 using System.Runtime.InteropServices;
 
-namespace CRUDPRACTICA
+namespace CINEMAX
 {
     public partial class Cartelera : Form
     {

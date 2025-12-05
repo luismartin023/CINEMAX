@@ -272,7 +272,6 @@
         private Label label2;
         private TextBox txt_telefono;
         private Label lbl_telefono;
-        private TextBox textBox4;
         private Label lbl_metodo;
         private TextBox txt_cedula;
         private Label lbl_cedula;
